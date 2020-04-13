@@ -6,7 +6,7 @@
 body {
     margin:0;
     position: static;
-    background-color:  #b3daf1;
+    background-color:  #f3f5f9;
 
 }
 
@@ -38,6 +38,8 @@ body {
     padding:10px 5px;
     margin-right: 10px;
 }
+
+
 
 #navbar p {
     color :white;
@@ -85,14 +87,16 @@ body {
     
 }
 
+#sidenav ul li a .fas{ 
+    width:25px; 
+}
+
 .container {
-    overflow: auto;
+    
     height: 1000px;
     margin-top:70px;
     margin-left:180px;
-    padding:10px;
-   
-   
+    padding:10px;   
 }
 
 ul.breadcrumbs {
@@ -162,6 +166,7 @@ ul.breadcrumbs li a {
 .content {
     display:flex;
     margin:10px;
+   
 }
 
 .content-item {
@@ -170,6 +175,7 @@ ul.breadcrumbs li a {
     background-color: white;
     margin:15px;
     padding : 12px;
+ 
 
 }
 
@@ -236,7 +242,7 @@ caption {
 }
 
 footer {
-    width:100%; 
+    
     margin-left:180px;
     left:0;
     bottom: 0;
